@@ -158,7 +158,43 @@
    text-align: end;
    margin-top: 45px;
  }
- /* footer style */
+ /* ------------------
+ gift corner style
+ ------------------- */
+ .gifts{
+   height: 156px;
+   background-color: rgb(241, 241, 241);
+   display: grid;
+   grid-template-columns: 536px repeat(1, 1fr);
+ }
+ .gifts-details{
+   margin-left: 67px;
+   margin-top: 27px;
+}
+.sec-title{
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 70px;
+   color: rgb(0, 113, 220);
+ }
+ .sec-title h1{
+   margin: 0;
+}
+.sub-title{
+   font-weight: 600;
+   font-size: 16px;
+    color: rgb(38, 38, 38);
+ }
+ .sub-title p{
+   margin: 0;
+}
+ .gift-thumbnail img{
+   width: 200px;
+   height: 156px;
+ }
+ /*-------------------
+  footer style 
+  -------------------*/
  footer{
    height: 239px;
    background: #0A0826;
@@ -204,3 +240,11 @@
     padding-top: 11px;
   
  }
+ /*--------------------
+  @media qurey style 
+  ------------------*/
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+
+   
+}
