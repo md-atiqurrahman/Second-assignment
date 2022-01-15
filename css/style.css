@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@1,300&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@600&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@1,300&family=Roboto:wght@300;500&display=swap');
 /*-------------------
  common styles or utilities
  -------------------- */
@@ -31,6 +32,7 @@
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: 90px;
       margin-left: 120px;
+      margin-bottom: 77px;
       overflow: hidden;
    }
    .details{
@@ -78,3 +80,79 @@
       transform: scale(1) rotate(-220deg);
       transition: transform 1.7s ease-in-out;
    }
+
+/*----------------------
+ collection section style 
+ ----------------------*/
+ .collection{
+    margin-left: 80px;
+    margin-right: 111px;
+ }
+ .products{
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   grid-row-gap: 30px;
+   grid-column-gap: 60px;
+   justify-content: center;
+ }
+ .section-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin-bottom: 35px;
+ }
+ .product{
+   width: 300px;
+   height: 435px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+   padding: 15px;
+ }
+ .product-photo img{
+   width: 300px;
+   height: 256px;
+ }
+ .product-name{
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 40px;
+   color: #18191F;
+   margin-top: 10px;
+ }
+ .product-price{
+   font-family: 'Inter', sans-serif;
+   font-size: 24px;
+   color: rgba(0, 0, 0, 0.87);
+ }
+ .rating{
+    display: flex;
+ }
+ .fa-star.filled{
+   color: #FB8200;
+   font-size: 11px;
+ }
+ .number{
+   font-size: 14px;
+   line-height: 22px;
+   color: #5E6366;
+   margin-top: 3px;
+   margin-left: 5px;
+ }
+ .shifting-policy{
+   font-family: 'Inter', sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 143%;
+   color: #787885;
+ }
+ .text{
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   color: rgba(224, 44, 109, 0.87);
+   text-align: end;
+   margin-top: 45px;
+ }
