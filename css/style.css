@@ -301,6 +301,7 @@
     margin-bottom: 10px;
     }
 }
+/* Medium devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
    .menubar{
       margin-left:0px;
