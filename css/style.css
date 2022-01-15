@@ -1,6 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@1,300&family=Roboto:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@600&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@1,300&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@700&family=Open+Sans:wght@600&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@1,300&family=Roboto:wght@300;500&display=swap');
 /*-------------------
  common styles or utilities
  -------------------- */
@@ -87,6 +88,7 @@
  .collection{
     margin-left: 80px;
     margin-right: 111px;
+    margin-bottom: 90px;
  }
  .products{
    display: grid;
@@ -155,4 +157,50 @@
    color: rgba(224, 44, 109, 0.87);
    text-align: end;
    margin-top: 45px;
+ }
+ /* footer style */
+ footer{
+   height: 239px;
+   background: #0A0826;
+ }
+ .container{
+    color: white;
+    text-align: center;
+    align-items: center;
+ }
+ .footer-title{
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 36px;
+   margin: 0;
+   padding-top: 43px;
+ }
+ .footer-title h3{
+    margin: 0;
+ }
+ .copyright{
+   font-family: 'Manrope', sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   color: #D9DBE1;
+ }
+ .copyright .far{
+    font-size: 18px;
+ }
+ .icon{
+    display: flex;
+    justify-content: center;
+ }
+ .icon-box{
+   width: 42px;
+   height: 42px;
+   border-radius: 21px;
+   background-color: rgba(179, 172, 172, 0.234);
+   margin-right: 10px;
+ }
+ .fab{
+    font-size: 21px;
+    padding-top: 11px;
+  
  }
